@@ -14,3 +14,17 @@ def quad(a,b,c):
 
 #sample: quad(1,2,3)
 
+
+#Updated version of the program (created on 3/20/2019).
+
+def quad(a,b,c):
+	b_rev = (-b)
+	b_squared = b**b
+	fourac = (4*a*c)
+	twoa = (2*a)
+	square = math.sqrt(b_squared-fourac)
+	print(square)
+	xroot1 = (b_rev+square)/twoa
+	xroot2 = (b_rev-square)/twoa
+	print(xroot1)
+	print(xroot2)
