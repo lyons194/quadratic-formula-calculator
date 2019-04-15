@@ -1,21 +1,7 @@
 #Begin program.
+#Updated version of the program (created on 3/20/2019).
 
 import math
-
-def quad(a,b,c):
-	b_rev = (-b)
-	b_squared = b**b
-	fourac = (4*a*c)
-	twoa = (2*a)
-	xroot1 = (b_rev+math.sqrt(b_squared-fourac))/twoa
-	xroot2 = (b_rev-math.sqrt(b_squared-fourac))/twoa
-	print(xroot1)
-	print(xroot2)
-
-#sample: quad(1,2,3)
-
-
-#Updated version of the program (created on 3/20/2019).
 
 def quad(a,b,c):
 	b_rev = (-b)
